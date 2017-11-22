@@ -1,0 +1,41 @@
+@media all and (min-width: 1171px) {
+    #tlo {
+        background-image: url(../img/man-1.jpg);
+        text-align: left;
+    }
+}
+
+@media all and (min-width: 993px)and (max-width:1170px) {
+    #tlo {
+        background-image: url(../img/man-2.jpg);
+        text-align: right;
+        height: 70vh;
+    }
+    #text{
+        width: 50%;
+        right: 0;
+        top: 20%;
+    }
+    #text1 {
+        text-align: left;
+    }
+    #text2 {
+        text-align: left;
+    }
+}
+
+@media all and (max-width: 992px) {
+    #tlo{
+        background-image: url(../img/man-1.jpg);
+        height: 50vh;
+
+    }
+    #text {
+        bottom: -100px;
+        color: #000;
+        text-align: center;
+    }
+}
+
+
+

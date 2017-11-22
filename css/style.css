@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    
+}
+
+
+#tlo {
+    background-image: url(../img/man-1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    margin: 0;
+    width: 100%
+}
+
+#text {
+    position: absolute;
+    font-family: 'Verdana';
+    top: 50vh;
+    margin-left: 20px;
+    text-align: left;
+    width: 100%;
+    color: #FFF;
+}
+
+#text1 {
+    font-size: 20px;
+}
+
+#text2 {
+    font-size: 35px;
+}
